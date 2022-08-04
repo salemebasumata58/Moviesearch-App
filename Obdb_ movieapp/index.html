@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MovieSearch App</title>
+</head>
+<style>
+    #container{
+        width: 40%;
+        margin: auto;
+        margin-top: 0.5rem;
+        
+    }
+    #container>div{
+        border: 1px solid rgb(59, 81, 81);
+        width: 100%;
+        height: 550px;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        background-color: rgba(2, 66, 44, 0.839);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #container>div>img{
+        width: 65%;
+        height: 70%;
+    }
+   #movie{
+        height: 1.7rem;
+    }
+    .submit{
+        height: 1.89rem;
+        background-color: rgb(6, 87, 90);
+        color: white;
+        cursor: pointer;
+    }
+    #header{
+        background-color: crimson;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        margin-top: -21px;
+    }
+    #content{
+        background-color: black;
+    }
+</style>
+<body>
+    <div id="header">
+    <h1>My MovieSearch App</h1>
+    
+        <input type="text" placeholder="Enter Movie Name" id="movie"/>
+        <input type="submit" class="submit" onclick="getMovie()"/>
+    
+</div>
+    <hr>
+   <div id="content">
+      <div id="container"></div>
+   </div>
+</body>
+</html>
+<script src="./index.js">
+   
+    
+</script>
